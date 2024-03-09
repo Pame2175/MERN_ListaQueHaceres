@@ -21,6 +21,8 @@ const Form = () => {
     <div className="d-flex justify-content-center align-items-center vh-100">
      
         <div className="mb-3">
+        <label htmlFor="usernameInput" className="form-label">Nuevo nombre de usuario:</label>
+
           <input
             type="text"
             value={inputValue}
